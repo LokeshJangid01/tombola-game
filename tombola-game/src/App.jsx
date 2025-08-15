@@ -5,7 +5,6 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from "./pages/Home";
 import Game from "./pages/Game";
-import JoinRoom from "./pages/JoinRoom";
 
 
 function App() {
@@ -13,8 +12,7 @@ function App() {
     <div className="min-h-screen bg-gray-100">
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/game/:roomId" element={<Game />} /> */}
-        <Route path="/join" element={<JoinRoom />} />
+        <Route path="/game/:roomId" element={<Game />} />
       </Routes>
     </div>
   )

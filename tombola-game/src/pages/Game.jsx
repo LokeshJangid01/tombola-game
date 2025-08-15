@@ -187,7 +187,7 @@ const callNextNumber = () => {
       </div>
       {/* Full Number Board */}
         <div className="mt-10">
-        <h2 className="text-xl font-bold text-center mb-4 text-black">Number Board</h2>
+        <h2 className="text-xl font-bold text-center mb-4">Number Board</h2>
         <div className="grid grid-cols-10 gap-2 max-w-md mx-auto">
             {Array.from({ length: 90 }, (_, i) => i + 1).map((num) => (
             <div
